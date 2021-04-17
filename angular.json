@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -120,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "FormArray"
+  "defaultProject": "FormArray",
+  "cli": {
+    "analytics": "368da411-30e4-49bb-bfd8-bc2e78841bda"
+  }
 }

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormArray, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FormArray';
+  form = new FormGroup({
+    topics: new FormArray([
+      
+    ])
+  });
+  
 }
